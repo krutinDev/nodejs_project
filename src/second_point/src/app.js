@@ -6,7 +6,7 @@ const greeting = require("./greeting");
 const sinModule = require("./sinModule");
 
 const config = JSON.parse(
-	fs.readFileSync("./src/second_point/config/config.json", "utf8")
+	fs.readFileSync("./src/second_point/src/config/config.json", "utf8")
 );
 global.name = config.name;
 global.date = new Date();

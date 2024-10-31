@@ -1,0 +1,53 @@
+Отчет по выполнению задания:
+
+- Создаем файл script.js и добавляем следующий код для получения параметров
+- Запускаем приложение с параметрами: node app.js John 30
+- Обновляем npm до последней версии: npm install -g npm
+- Проверяем текущую версию npm: npm -v
+- Инициализируем npm: npm init -y
+- Устанавливаем express: npm install express
+
+- После установки express, package.json будет выглядеть так:
+    {
+        "name": "myapp",
+        "version": "1.0.0",
+        "main": "app.js",
+        "dependencies": {
+            "express": "^4.18.2"
+        },
+        "scripts": {},
+        "author": "",
+        "license": "ISC"
+    }
+
+- Создаем файл app.js
+- Запускаем сервер: node app.js
+- Открываем браузер и переходим по адресу http://localhost:3000. Скриншот: Прикрепил в корень проекта.
+- npm install react react-dom
+- npm install jasmine-node --save-dev
+
+- package.json теперь содержит:
+    "devDependencies": {
+        "jasmine-node": "^3.0.0"
+    }
+
+- Удаляем express: npm uninstall express
+- Удаляем react и react-dom: npm uninstall react react-dom
+
+- Добавляем команды в package.json:
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node script.js @kkrutin 19"
+    }
+
+- Запускаем команды: npm start -> npm run dev
+
+Итог:
+    - Передача параметров выполнена успешно.
+    - Установлена последняя версия npm: 9.x.x.
+    - Создан проект с файлом package.json.
+    - Установлен и удален express.
+    - Сервер успешно запущен и проверен в браузере.
+    - Установлены и удалены пакеты react и react-dom.
+    - Установлен пакет jasmine-node для тестирования.
+    - Определены и протестированы команды в package.json.
