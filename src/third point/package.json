@@ -1,0 +1,16 @@
+{
+	"name": "third-point",
+	"version": "1.0.0",
+	"main": "script.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "node script.js @kkrutin 19"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"jest": "^29.7.0"
+	}
+}
